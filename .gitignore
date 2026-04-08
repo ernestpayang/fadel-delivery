@@ -1,0 +1,16 @@
+# Backend
+node_modules/
+.env
+dist/
+
+# Flutter
+mobile/.dart_tool/
+mobile/.packages
+mobile/.pub/
+mobile/build/
+mobile/android/app/key.properties
+mobile/ios/Flutter/Generated.xcconfig
+
+# OS
+.DS_Store
+Thumbs.db
