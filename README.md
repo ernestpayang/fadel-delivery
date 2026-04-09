@@ -93,6 +93,15 @@ Tuez le processus : taskkill /F /PID <votre_pid>
 
 Ou arrêtez le service PostgreSQL local via services.msc.
 
+
+MISE A JOUR : 
+
+Pour lancer Docker + l'API : npm run dev
+
+Pour lancer l'application Flutter : npm run mobile
+
+
+
 📝 Licence
 Propriété de FaDel - N'Djaména, Tchad.
 

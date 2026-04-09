@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
-  },
+  "start": "node src/server.js",
+  "server": "nodemon src/server.js",
+  "docker:up": "docker-compose up -d",
+  "docker:down": "docker-compose down",
+  "mobile": "cd mobile && flutter run",
+  "dev": "docker-compose up -d && nodemon src/server.js",
+  "fadel": "npm run dev & npm run mobile"
+},
   "dependencies": {
     "@prisma/client": "^5.0.0",
     "@prisma/config": "^7.7.0",
