@@ -94,7 +94,7 @@ Tuez le processus : taskkill /F /PID <votre_pid>
 Ou arrêtez le service PostgreSQL local via services.msc.
 
 
-MISE A JOUR : 
+MISE A JOUR pour 09/04 : 
 
 Pour lancer Docker + l'API : npm run dev
 
